@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head> <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:lightblue;
+            margin:200 px ;
+		padding: 8 px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              background: linear-gradient(to bottom, white,blue);
+        color: red;
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<body>
+ <h1>Update Form</h1>
+    <form action="update" method="post" >
+FRIEND-ID<input type="text" id="ids"  name="ids" >
+ FRIEND-NAME<input type="text" id="name" name="name" required><br><br>
+FRIEND-ADDRESS <input type="text" id="add" name="add" required><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
